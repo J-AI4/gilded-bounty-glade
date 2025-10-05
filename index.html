@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gilded Bounty Glade</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="intro">
+            <img src="arch.png" alt="Archway Background" id="arch-bg">
+            <img src="enter.png" alt="Enter Button" id="enter-btn">
+        </div>
+
+        <div id="garden" style="display:none;">
+            <div id="stats">
+                <div class="stat" id="silver"><img src="silver.png" class="icon"> 0</div>
+                <div class="stat" id="bronze"><img src="bronze.png" class="icon"> 0</div>
+                <div class="stat" id="gold"><img src="gold.png" class="icon"> 0</div>
+                <div class="stat" id="diamond"><img src="diamond.png" class="icon"> 0</div>
+            </div>
+
+            <div id="game-board">
+                <div class="square" id="square1" data-coin="silver"><img src="bush.png" class="bush"></div>
+                <div class="square" id="square2" data-coin="bronze"><img src="bush.png" class="bush"></div>
+                <div class="square" id="square3" data-coin="gold"><img src="bush.png" class="bush"></div>
+                <div class="square" id="square4" data-coin="diamond"><img src="bush.png" class="bush"></div>
+            </div>
+
+            <div id="power-up-container"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
